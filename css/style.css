@@ -1,5 +1,10 @@
 /*Variables*/
 /*General*/
+section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -87,6 +92,44 @@ body {
   padding: 25px;
   position: absolute;
   left: 40%;
+}
+
+/*Services*/
+.services h1 {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.services h4 {
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
+  text-align: center;
+  color: #858b89;
+  margin: 0 auto 120px auto;
+}
+
+.services i {
+  color: #e4bc36;
+  font-size: 40px;
+  position: absolute;
+  right: 50%;
+  top: -20%;
+}
+
+.services h3 {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.services p {
+  font-family: "Crimson Text", serif;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  color: #858b89;
 }
 
 /*Footer*/
