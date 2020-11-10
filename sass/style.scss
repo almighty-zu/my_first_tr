@@ -1,12 +1,27 @@
 /*Variables*/
 $font-header: 'Kanit', sans-serif;
-$font-text: 'Markazi Text', serif;
+$font-text: 'Crimson Text', serif;
 $font-logo: 'Pattaya', sans-serif;
+
+/*General*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
 
 /*Navigation*/
 
+.navigation {
+    background: url('https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg');
+}
+
 .navigation ul {
     list-style: none;
+    margin: 20px 0 5px 0;
 }
 
 .navigation ul li {
@@ -19,11 +34,57 @@ $font-logo: 'Pattaya', sans-serif;
     font-family: $font-header;
     font-size: 16px;
     cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }
 
-.navigation p {
+.logo {
     color: #e4bc36;
     font-family: $font-logo;
     font-size: 24px;
     font-style: italic;
+    margin: 20px 0 5px 0;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+/*Splash*/
+
+.splash {
+    background: url('https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+}
+
+.splash h1 {
+    color: #fff;
+    font-family: $font-header;
+    font-size: 80px;
+}
+
+.splash h3 {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    font-family: $font-text;
+}
+
+.splash btn {
+    display: inline-block;
+    color: #fff;
+    font-family: $font-header;
+    background: #fed136; 
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 16px;
 }
