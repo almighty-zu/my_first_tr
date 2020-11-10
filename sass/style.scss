@@ -1,7 +1,7 @@
 /*Variables*/
-$font-header: 'Patua One', cursive;
+$font-header: 'Kanit', sans-serif;
 $font-text: 'Markazi Text', serif;
-$font-logo: 'Pacifico', cursive;
+$font-logo: 'Pattaya', sans-serif;
 
 /*Navigation*/
 
@@ -15,9 +15,15 @@ $font-logo: 'Pacifico', cursive;
 
 .navigation ul li a {
     display: block;
-    margin: 0 13px 0 13px;
+    margin: 0 12px 0 12px;
+    font-family: $font-header;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .navigation p {
-    color: #EEBA4C;
+    color: #e4bc36;
+    font-family: $font-logo;
+    font-size: 24px;
+    font-style: italic;
 }
